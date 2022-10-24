@@ -1,0 +1,12 @@
+plant site -- connect POS to website
+
+AC:
+- Develop an API that communicates from store POS to website
+- API should communicate with website data store
+- API should create a gift card transaction
+  -  transaction deets:
+     - name
+     - email
+     - gift card cost
+     - gift card code (must be generated)
+ 
