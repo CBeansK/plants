@@ -9,6 +9,7 @@ const server = express();
 server.get('/', hello.helloWorld);
 server.get('/hello', hello.helloWorld);
 
+// endpoint for creating gift cards
 server.get('/giftCards', createGiftCard.create);
 
 
